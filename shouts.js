@@ -11,30 +11,8 @@ function voice(shout){
   say.speak('Alex', shout);
 }
 
-// function Shouts(){};
-//
-// Shouts.prototype = {}
-// Shouts.prototype.cow = cow;
-//
-// Shouts.prototype.voice = voice;
-
-// module.exports = new Shouts();
-
-
-var shouts = {
-  cow : cow,
-  voice: voice
-}
-
-module.exports = shouts;
-
-
+// Podes empezar armando un objeto con los métodos que queres exponer
 // var shouts = {
 //   cow : cow,
 //   voice: voice
 // }
-//
-// module.exports = shouts;
-
-// exports.cow = cow;
-// exports.voice = voice;
