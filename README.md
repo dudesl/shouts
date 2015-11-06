@@ -34,10 +34,10 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 ---
 #### ejercicio 4
 **Una vez publicado**
-1.  ir al directorio `app`.
-2. `npm unlink shouts` para romper el symlink local.
-3. `npm install` traerá el módulo desde el registro público.
 
+ 1. Ir al directorio `app`. 
+ 2. `npm unlink shouts` para romper el symlink local. 
+ 3. `npm install` traerá el módulo desde el registro público.
 
 ---
 #### ejercicio 5
