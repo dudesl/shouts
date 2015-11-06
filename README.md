@@ -25,15 +25,16 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 ---
 #### ejercicio 3
 **Publicar en repo público** 
-1. Crear un usuario en NPM https://www.npmjs.com/signup
-2. npm login para registrar las credenciales
-3. cat ~/.npmrc para chequear el authToken correspondiente
-4. npm publish para publicar
+
+ 1. Crear un usuario en NPM https://www.npmjs.com/signup 
+ 2. npm login para registrar las credenciales
+ 3. cat ~/.npmrc para chequear el authToken correspondiente
+ 4. npm publish para publicar
 
 ---
 #### ejercicio 4
 **Una vez publicado**
-1. ir al directorio `app`.
+1.  ir al directorio `app`.
 2. `npm unlink shouts` para romper el symlink local.
 3. `npm install` traerá el módulo desde el registro público.
 
