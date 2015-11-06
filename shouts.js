@@ -1,8 +1,8 @@
-var cow = require('cowsay');
+var cowsay = require('cowsay');
 var say = require('say');
 
 function cow(shout){
-  console.log(cow.say({
+  console.log(cowsay.say({
     text : shout
   }))
 }
@@ -21,22 +21,20 @@ function voice(shout){
 // module.exports = new Shouts();
 
 
-// var shouts = {
-//   cow : cow,
-//   voice: voice
-// }
-//
-// module.exports = shouts;
-
-
-// var shouts = {
-//   cow : cow,
-//   voice: voice
-// }
-//
-// module.exports = shouts;
-
-module.exports = {
+var shouts = {
   cow : cow,
   voice: voice
-};
+}
+
+module.exports = shouts;
+
+
+// var shouts = {
+//   cow : cow,
+//   voice: voice
+// }
+//
+// module.exports = shouts;
+
+// exports.cow = cow;
+// exports.voice = voice;
