@@ -64,10 +64,9 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
   - npm set registry http://registry.npm.ml.com. Esto lo setea en ~/.npmrc, o sea, para TODOS los módulos. Cada vez que hagamos npm publish
   - hacer un `.npmrc` local al proyecto con el siguiente contenido
     ```registry = http://registry.npm.ml.com/
-    spin = false
-    ```
+    spin = false```
 2. Loguearse con el user del registro privado (pedir por mensaje privado)
   - `npm add user`
 3. publicar comun y corriente con `npm publish`
 
-Cualquier conflicto con alguno de los comandos npm de este paso, usar el sufijo ```--registry http://registry.npm.ml.com```
+Cualquier conflicto con alguno de los comandos npm de este paso, usar el sufijo --registry http://registry.npm.ml.com
