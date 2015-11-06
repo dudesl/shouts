@@ -16,3 +16,5 @@ function voice(shout){
 //   cow : cow,
 //   voice: voice
 // }
+
+// Algo de ayuda aca http://www.sitepoint.com/understanding-module-exports-exports-node-js/
