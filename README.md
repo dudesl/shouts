@@ -67,7 +67,7 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
     spin = false
     ```
 2. Loguearse con el user del registro privado (pedir por mensaje privado)
-  - ```npm add user```
+  - `npm add user`
 3. publicar comun y corriente con `npm publish`
 
 Cualquier conflicto con alguno de los comandos npm de este paso, usar el sufijo ```--registry http://registry.npm.ml.com```
