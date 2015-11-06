@@ -61,8 +61,7 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 **Publicar en repo privado**
 
 1. Setear el registro privado. 2 formas de hacerlo
-  - npm set registry http://registry.npm.ml.com
-    Esto lo setea en ~/.npmrc, o sea, para TODOS los módulos. Cada vez que hagamos npm publish
+  - npm set registry http://registry.npm.ml.com. Esto lo setea en ~/.npmrc, o sea, para TODOS los módulos. Cada vez que hagamos npm publish
   - hacer un `.npmrc` local al proyecto con el siguiente contenido
     ```registry = http://registry.npm.ml.com/
     spin = false
