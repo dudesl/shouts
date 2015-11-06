@@ -24,7 +24,7 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 
 ---
 #### ejercicio 3
-** Publicar en repo público **
+**Publicar en repo público** 
 1. Crear un usuario en NPM https://www.npmjs.com/signup
 2. npm login para registrar las credenciales
 3. cat ~/.npmrc para chequear el authToken correspondiente
@@ -32,7 +32,7 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 
 ---
 #### ejercicio 4
-** Una vez publicado **
+**Una vez publicado**
 1. ir al directorio `app`.
 2. `npm unlink shouts` para romper el symlink local.
 3. `npm install` traerá el módulo desde el registro público.
@@ -40,8 +40,7 @@ Este módulo contiene 2 funcionalidades bien básicas. Lo usaremos de ejemplo pa
 
 ---
 #### ejercicio 5
-** Hacer disponible un bin script**
-
+**Hacer disponible un bin script**
 1. copiar el `index.js` de `app` al modulo con nombre `bin.js`
 2. completar el campo `"bin"` del `package.json` del módulo
     ```
